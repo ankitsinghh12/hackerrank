@@ -1,0 +1,2 @@
+for x in range(1,int(input())+1):# Enter your code here. Read input from STDIN. Print output to STDOUT
+    print(((111111111)%(10**x))**2)
