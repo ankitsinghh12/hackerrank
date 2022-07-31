@@ -1,0 +1,8 @@
+if __name__ == '__main__':
+    A = set(input().split())
+    strict_superset = True
+    for _ in range(int(input())):
+        strict_superset = A > set(input().split())
+        if not strict_superset:
+            break
+    print(strict_superset)
